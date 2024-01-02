@@ -11,8 +11,8 @@ export const categories = [
 // Product Sliders Offers
 export const offerProducts = [
     {
-        image: "https://rukminim1.flixcart.com/image/150/150/jqgy3rk0/computer-table/j/2/v/particle-board-dkl-comp-tb-09-delite-kom-brown-original-imafcheqbgers37z.jpeg",
-        name: "Office Study Tables",
+        image: "https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/51OxcMqHoeL._SX466_.jpg",
+        name: "Home Appliance",
         offer: "From ₹3,290",
         tag: "Made In India Brands",
     },
@@ -41,14 +41,14 @@ export const offerProducts = [
         tag: "Discover Now!",
     },
     {
-        image: "https://rukminim1.flixcart.com/image/150/150/khmbafk0-0/tripod/tripod/6/7/5/professional-3110-tripod-with-mobile-holder-light-aluminum-alloy-original-imafxhcaks7j2tq8.jpeg",
-        name: "Tripods",
+        image: "https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/512QAURU1TL._SX425_.jpg",
+        name: "Laptops",
         offer: "Min 50% Off",
         tag: "Great Savings!",
     },
     {
-        image: "https://rukminim1.flixcart.com/image/150/150/kjn6qvk0-0/shoe/d/c/v/ck2669-001nike-12-nike-black-white-smoke-grey-original-imafz5vwe5t53z3t.jpeg",
-        name: "Nike, Skechers & more",
+        image: "https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/512QAURU1TL._SX425_.jpg",
+        name: "phones",
         offer: "Upto 40% Off",
         tag: "Buy Now!",
     },
