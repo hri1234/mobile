@@ -1,0 +1,94 @@
+.super {
+  font-weight: 600 !important;
+    color: green !important;
+}
+.sup{
+font-weight: 600 !important;
+}
+.card1 {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  .card1 .overlap-group-wrapper {
+    background-color: #ffffff;
+    width: 500px;
+    height: 640px;
+  }
+  .card1 .overlap-group {
+    height: 640px;
+    background-image: url("../../assets/images/insta07.jpg.png");
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  .card1 .text-box {
+    display: flex;
+    flex-direction: column;
+    width: 211px;
+    align-items: flex-start;
+    gap: 19.71px;
+    position: relative;
+    top: 63px;
+    left: 16px;
+  } 
+  .card1 .frame {
+    display: flex;
+    flex-direction: column;
+    width: 193.4px;
+    align-items: flex-start;
+    gap: 9.85px;
+    position: relative;
+    flex: 0 0 auto;
+  } 
+  .card1 .text-wrapper {
+    position: relative;
+    width: 193.4px;
+    margin-top: -1.23px;
+    font-family: "Roboto", Helvetica;
+    font-weight: 500;
+    color: #18570f;
+    font-size: 27.1px;
+    letter-spacing: 0.62px;
+    line-height: 34.5px;
+  }
+  .card1 .with-latest-trendy {
+    position: relative;
+    width: 153.98px;
+    font-family: "Roboto", Helvetica;
+    font-weight: 400;
+    color: #49454f;
+    font-size: 17.2px;
+    letter-spacing: 0.04px;
+    line-height: 24.6px;
+  }
+  .card1 .fill-button {
+    display: inline-flex;
+    height: 49.27px;
+    align-items: center;
+    justify-content: center;
+    gap: 9.85px;
+    padding: 0px 19.71px;
+    position: relative;
+    background-color: #18570f;
+    border-radius: 6.16px;
+  }
+  .card1 .div {
+    position: relative;
+    width: fit-content;
+    font-family: "Roboto", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 19.7px;
+    text-align: center;
+    letter-spacing: 0.62px;
+    line-height: 29.6px;
+    white-space: nowrap;
+  }
+  .card1 .chevron-right {
+    position: relative;
+    width: 29.56px;
+    height: 29.56px;
+  }
+  

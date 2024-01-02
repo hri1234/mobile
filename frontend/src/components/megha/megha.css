@@ -1,0 +1,31 @@
+.bg-fruit-1{
+    background-image: url("../../assets/images/ba5.png");
+    width: auto;
+    height: 350px;
+    background-repeat: no-repeat;
+    opacity: 0.8;
+    background-size: cover;
+}
+.bg-fruit-2{
+    background-image: url("../../assets/images/bag3.png");
+    width: auto;
+    height: 350px;
+    background-repeat: no-repeat;
+    opacity: 0.8;
+    background-size: cover;
+}
+.bg-fruit-3{
+    background-image: url("../../assets/images/shoes2.png");
+    width: auto;
+    height: 350px;
+    background-repeat: no-repeat;
+    opacity: 0.8;
+    background-size: cover;
+}
+.bg-fruit-4{
+    background-image: url("../../assets/images/bag3.png");
+    width: auto;
+    height: 270px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
