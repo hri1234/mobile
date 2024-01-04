@@ -5,6 +5,12 @@ import CardGiftcardIcon from '@mui/icons-material/CardGiftcard';
 import HelpIcon from '@mui/icons-material/Help';
 import paymentMethods from '../../../assets/images/payment-methods.svg';
 import { useLocation } from 'react-router-dom';
+import { Link } from 'react-router-dom';
+import CookiesPolicy from '../../policy/CookiesPolicy';
+import Disclaimer from '../../policy/Disclaimer';
+import PrivacyPolicy from '../../policy/PrivacyPolicy';
+import ReturnPolicy from '../../policy/ReturnPolicy';
+import Terms from '../../policy/Terms';
 
 const footerLinks = [
   {
@@ -61,35 +67,35 @@ const footerLinks = [
       }
     ]
   },
-  {
-    title: "policy",
-    links: [
-      {
-        name: "Return Policy",
-        redirect: "https://www.upstage.com/pages/returnpolicy",
-      },
-      {
-        name: "Terms Of Use",
-        redirect: "https://www.upstage.com/pages/terms",
-      },
-      {
-        name: "Security",
-        redirect: "https://www.upstage.com/pages/paymentsecurity",
-      },
-      {
-        name: "Privacy",
-        redirect: "https://www.upstage.com/pages/privacypolicy",
-      },
-      {
-        name: "Sitemap",
-        redirect: "https://www.upstage.com/sitemap",
-      },
-      {
-        name: "EPR Compliance",
-        redirect: "https://www.upstage.com/pages/ewaste-compliance-tnc",
-      },
-    ]
-  },
+  // {
+  //   title: "policy",
+  //   links: [
+  //     {
+  //       name: "Return Policy",
+  //       To: "https://www.upstage.com/pages/returnpolicy",
+  //     },
+  //     {
+  //       name: "Terms Of Use",
+  //       redirect: "https://www.upstage.com/pages/terms",
+  //     },
+  //     {
+  //       name: "Security",
+  //       redirect: "https://www.upstage.com/pages/paymentsecurity",
+  //     },
+  //     {
+  //       name: "Privacy",
+  //       redirect: "https://www.upstage.com/pages/privacypolicy",
+  //     },
+  //     {
+  //       name: "Sitemap",
+  //       redirect: "https://www.upstage.com/sitemap",
+  //     },
+  //     {
+  //       name: "EPR Compliance",
+  //       redirect: "https://www.upstage.com/pages/ewaste-compliance-tnc",
+  //     },
+  //   ]
+  // },
   {
     title: "social",
     links: [
@@ -125,7 +131,8 @@ const Footer = () => {
           <footer className="mt-20 w-full py-1 sm:py-4 px-4 sm:px-12 bg-primary-darkBlue text-white text-xs border-b border-gray-600 flex flex-col sm:flex-row overflow-hidden">
             <div className="w-full sm:w-7/12 flex flex-col sm:flex-row">
 
-              {footerLinks.map((el, i) => (
+
+              {/* {footerLinks.map((el, i) => (
                 <div className="w-full sm:w-1/5 flex flex-col gap-2 my-3 sm:my-6 ml-5" key={i}>
                   <h2 className="text-primary-grey mb-2 uppercase">{el.title}</h2>
                   {el.links.map((item, i) => (
@@ -133,9 +140,34 @@ const Footer = () => {
                   ))}
 
                 </div>
-              ))}
+              ))} */}
 
             </div>
+            <div>
+        <nav>
+          <ul>
+            <li>
+              <Link to="/CookiesPolicy" style={{color:'white' , textDecoration:'none'}}>CookiesPolicy</Link>
+            </li>
+            <li>
+              <Link to="/Terms"style={{color:'white' , textDecoration:'none'}}>Terms Of Use</Link>
+            </li>
+            <li>
+              <Link to="/Disclaimer"style={{color:'white' , textDecoration:'none'}}>Disclaimer</Link>
+            </li>
+            <li>
+              <Link to="/PrivacyPolicy"style={{color:'white' , textDecoration:'none'}}>PrivacyPolicy</Link>
+            </li>
+            <li>
+              <Link to="/ReturnPolicy"style={{color:'white' , textDecoration:'none'}}>ReturnPolicy</Link>
+            </li> 
+            {/* Similarly, add list items for other links */}
+          </ul>
+        </nav>
+
+        
+        {/* Similarly, add routes for other links */}
+      </div>
 
             <div className="border-gray-600 h-36 w-1 border-l mr-5 mt-6 hidden sm:block"></div>
             <div className="w-full sm:w-5/12 my-6 mx-5 sm:mx-0 flex flex-col sm:flex-row gap-2 sm:gap-0 justify-between">

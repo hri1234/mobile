@@ -36,7 +36,11 @@ import UpdateUser from './components/Admin/UpdateUser';
 import ReviewsTable from './components/Admin/ReviewsTable';
 import Wishlist from './components/Wishlist/Wishlist';
 import NotFound from './components/NotFound';
-
+import CookiesPolicy from './components/policy/CookiesPolicy';
+import Disclaimer from './components/policy/Disclaimer';
+import PrivacyPolicy from './components/policy/PrivacyPolicy';
+import ReturnPolicy from './components/policy/ReturnPolicy';
+import Terms from './components/policy/Terms';
 function App() {
 
   const dispatch = useDispatch();
@@ -156,6 +160,11 @@ function App() {
         } ></Route>
 
         <Route path="/password/forgot" element={<ForgotPassword />} />
+        <Route path="/CookiesPolicy" element={<CookiesPolicy />} />
+        <Route path="/Disclaimer" element={<Disclaimer />} />
+        <Route path="/PrivacyPolicy" element={<PrivacyPolicy />} />
+        <Route path="/ReturnPolicy" element={<ReturnPolicy />} />
+        <Route path="/Terms" element={<Terms />} />
 
         <Route path="/password/reset/:token" element={<ResetPassword />} />
 
