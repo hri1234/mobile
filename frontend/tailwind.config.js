@@ -28,7 +28,7 @@ module.exports = {
       pink: colors.pink,
       // custom colors
       primary: {
-        blue: '#2874f0',
+        black: '#000',
         lightGreen: '#14be47',
         green: '#388e3c',
         yellow: '#ff9f00',

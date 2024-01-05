@@ -6,6 +6,15 @@ export const categories = [
     "Fashion",
     "Appliances",
     "Home",
+    "Camera",
+    "Bikedrone",
+    "LedOutdoor",
+    "MusicEquipment",
+    "StagePerformance",
+    "GardenEquipment",
+    "KitchenLuxurious",
+    "Cabinets",
+    "Caraccessories"
 ];
 
 // Product Sliders Offers

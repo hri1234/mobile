@@ -3,15 +3,26 @@ import { Link } from 'react-router-dom';
 
 const categories = [
     "Electronics",
-    "TVs & Appliances",
+    "TVs&Appliances",
     "Men",
     "Women",
-    "Baby & Kids",
-    "Home & Furniture",
-    "Sports, Books & More",
+    "Baby&Kids",
+    "Home&Furniture",
+    "Sports,Books&More",
     "Flights",
     "Offer Zone",
+    "Camera",
     "Grocery",
+    "Laptops",
+    "Mobiles",
+    "Bikedrone",
+    "LedOutdoor",
+    "MusicEquipment",
+    "StagePerformance",
+    "GardenEquipment",
+    "KitchenLuxurious",
+    "Cabinets",
+    "Caraccessories"    
 ]
 
 const MinCategory = () => {

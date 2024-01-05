@@ -46,6 +46,50 @@ const catNav = [
         name: "Grocery",
         icon: grocery,
     },
+    {
+        name: "Laptops",
+        icon: grocery,
+    },
+    {
+        name: "Mobiles",
+        icon: grocery,
+    },
+    {
+        name: "Bikedrone",
+        icon: grocery,
+    },
+    {
+        name: "Camera",
+        icon: grocery,
+    },
+    {
+        name: "LedOutdoor",
+        icon: grocery,
+    },
+    {
+        name: "MusicEquipment",
+        icon: grocery,
+    },
+    {
+        name: "StagePerformance",
+        icon: grocery,
+    },
+    {
+        name: "GardenEquipment",
+        icon: grocery,
+    },
+    {
+        name: "KitchenLuxurious",
+        icon: grocery,
+    },
+    {
+        name: "Cabinets",
+        icon: grocery,
+    },
+    {
+        name: "Caraccessories",
+        icon: grocery,
+    },
 ]
 
 const Categories = () => {
