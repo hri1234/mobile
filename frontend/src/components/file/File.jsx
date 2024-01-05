@@ -8,9 +8,12 @@ import pic5 from '../../assets/images/ama5.jpg'
 import pic6 from '../../assets/images/ama6.jpg'
 import pic7 from '../../assets/images/ama7.jpg'
 import pic8 from '../../assets/images/ama8.jpg'
+import { Link } from 'react-router-dom'
+import Products from '../Products/Products'
 const File = () => {
   return (
     <>
+    <Link to = "/Products">
       <div className="container-fluid" style={{backgroundColor:"white"}}>
         <div className="row">
           <div className="col-lg-4">
@@ -136,6 +139,7 @@ const File = () => {
           </div>
         </div>   
       </div>
+      </Link>
     </>
   )
 }

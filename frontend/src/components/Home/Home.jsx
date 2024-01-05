@@ -42,15 +42,12 @@ const Home = () => {
         <DealSlider title={"Top Brands, Best Price"} />
         <Ankit />
         {!loading && <ProductSlider title={"You May Also Like..."} tagline={"Based on Your Interest"} />}
-        {!loading && <ProductSlider title={"Suggested for You"} tagline={"Based on Your Activity"} />}
         <File />
         <DealSlider title={"Top Offers On"} />
         <Ankit />
         {!loading && <ProductSlider title={"Don't Miss These!"} tagline={"Inspired by your order"} />}
-        {!loading && <ProductSlider title={"Suggested for You"} tagline={"Based on Your Activity"} />}
         <DealSlider title={"Discounts for You"} />
         <File />
-        {!loading && <ProductSlider title={"Suggested for You"} tagline={"Based on Your Activity"} />}
         {!loading && <ProductSlider title={"Suggested for You"} tagline={"Based on Your Activity"} />}
         <Megha />
         <DealSlider title={"Top Brands, Best Price"} />

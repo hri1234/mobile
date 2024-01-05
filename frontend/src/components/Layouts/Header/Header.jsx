@@ -21,10 +21,10 @@ const Header = () => {
   return (
 
     <header className="bg-primary-black fixed top-0 py-2.5 w-full z-10">
-
+      {/* <h1 style={{color:"red" , fontWeight:"900" , fontStyle:"italic"}}>FineKarts</h1> */}
       {/* <!-- navbar container --> */}
       <div className="w-full sm:w-9/12 px-1 sm:px-4 m-auto flex justify-between items-center relative">
-
+      <h1 style={{color:"red" , fontWeight:"900" , fontStyle:"italic" , fontSize:'20px' , marginRight:"10px"}}>FineKarts</h1>
         {/* <!-- logo & search container --> */}
         <div className="flex items-center flex-1">
           {/* <Link className="h-7 mr-1 sm:mr-4" to="/">
@@ -53,6 +53,10 @@ const Header = () => {
           <span className="moreDropDown hidden sm:flex items-center text-white font-medium gap-1 cursor-pointer" onClick={() => setToggleSecondaryDropDown(!toggleSecondaryDropDown)}>More
             <span>{toggleSecondaryDropDown ? <ExpandLessIcon sx={{ fontSize: "16px" }} /> : <ExpandMoreIcon sx={{ fontSize: "16px" }} />}</span>
           </span>
+
+          {/* const Data = async()=>{
+            map.function.toLowercase()
+          } */}
 
           {toggleSecondaryDropDown && <SecondaryDropDownMenu />}
 

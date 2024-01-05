@@ -7,8 +7,13 @@ import pic5 from '../../assets/images/sh8.png'
 import pic6 from '../../assets/images/crocks.jpg'
 import pic7 from '../../assets/images/shoes2.png'
 import pic8 from '../../assets/images/shoes3.png'
+import Products from '../Products/Products'
+import { Link } from 'react-router-dom'
 const Alibaba = () => {
   return (
+    <>
+    <Link to ="/Products">
+
     <div className="container-fluid" style={{backgroundColor:"#fff"}}>
     <h4 className="text-base text-muted font-semibold py-3">BIGGEST DEAL ON TOP BRAND</h4>
     <div className="row">
@@ -106,6 +111,8 @@ const Alibaba = () => {
       </div>
     </div>
   </div>
+  </Link>
+  </>
   )
 }
 

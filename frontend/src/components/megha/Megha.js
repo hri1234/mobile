@@ -8,8 +8,12 @@ import pic5 from '../../assets/images/flip5.jpg'
 import pic6 from '../../assets/images/flip6.jpg'
 import pic7 from '../../assets/images/flip7.jpg'
 import pic8 from '../../assets/images/flip8.jpg'
+import { Link } from 'react-router-dom'
+import Products from '../Products/Products'
 const Megha = () => {
   return (
+    <>
+    <Link to="/Products">
     <div className="container-fluid my-2" style={{backgroundColor:"rgb(240, 240, 240)"}}>
     <h2 className="my-4">Discover your next business opportunity</h2>
     <div className="row">
@@ -129,6 +133,8 @@ const Megha = () => {
       </div>
     </div>
   </div>
+  </Link>
+  </>
   )
 }
 export default Megha

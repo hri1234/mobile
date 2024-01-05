@@ -7,6 +7,14 @@ import appliances from '../../assets/images/Categories/appliances.png';
 import furniture from '../../assets/images/Categories/furniture.png';
 import beauty from '../../assets/images/Categories/beauty.png';
 import grocery from '../../assets/images/Categories/grocery.png';
+import  laptop  from '../../assets/images/Categories/laptop.png';
+import drone from '../../assets/images/Categories/drone.png'
+import led from "../../assets/images/Categories/led.png";
+import music from "../../assets/images/Categories/music.png";
+import stage from "../../assets/images/Categories/stage.png";
+import garden from "../../assets/images/Categories/garden.png";
+import kitchen from "../../assets/images/Categories/kitchen.png"
+
 import { Link } from 'react-router-dom';
 
 const catNav = [
@@ -39,7 +47,7 @@ const catNav = [
         icon: furniture,
     },
     {
-        name: "Beauty,Toys & more",
+        name: "Beauty",
         icon: beauty,
     },
     {
@@ -48,15 +56,15 @@ const catNav = [
     },
     {
         name: "Laptops",
-        icon: grocery,
+        icon: laptop,
     },
-    {
-        name: "Mobiles",
-        icon: grocery,
-    },
+    // {
+    //     name: "Phones",
+    //     icon: mobiles,
+    // },
     {
         name: "Bikedrone",
-        icon: grocery,
+        icon: drone,
     },
     {
         name: "Camera",
@@ -64,23 +72,23 @@ const catNav = [
     },
     {
         name: "LedOutdoor",
-        icon: grocery,
+        icon: led,
     },
     {
         name: "MusicEquipment",
-        icon: grocery,
+        icon: music,
     },
     {
         name: "StagePerformance",
-        icon: grocery,
+        icon: stage,
     },
     {
         name: "GardenEquipment",
-        icon: grocery,
+        icon: garden,
     },
     {
         name: "KitchenLuxurious",
-        icon: grocery,
+        icon: kitchen,
     },
     {
         name: "Cabinets",

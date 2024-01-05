@@ -11,9 +11,13 @@ import pic9 from '../../assets/images/ama9.jpg'
 import pic10 from '../../assets/images/ama10.jpg'
 import pic11 from '../../assets/images/ama11.jpg'
 import pic12 from '../../assets/images/ama12.jpg'
+import Products from '../Products/Products'
+import { Link } from 'react-router-dom'
+
 const Amazone = () => {
     return (
         <>
+        <Link to="/Products">
             <div className="container-fluid" style={{backgroundColor:"#8c8c8c"}}>
                 <div className="row">
                     <div className="col-lg-3 col-md-6 p-4" style={{ backgroundColor: "white" }}>
@@ -166,6 +170,7 @@ const Amazone = () => {
                     </div>
                 </div>
             </div>
+            </Link>
         </>
     )
 }
